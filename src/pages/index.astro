@@ -24,9 +24,9 @@ function bgClass() {
 
 ---
 
-<Layout title="Welcome to Astro.">
-	<main class={bgClass()} >
-		<Home client:load ></Home>
+<Layout title="Weather">
+	<main class={'bg-white'} >
+		<Home client:load background={bgClass()} ></Home>
 	</main>	
 </Layout>
 

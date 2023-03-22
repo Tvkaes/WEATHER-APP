@@ -29,7 +29,7 @@ function MyComponent() {
     return (
       <div className="flex flex-col justify-center items-center gap-4" >
 					<input type="text" className="input bg-white text-black shadow-lg" onChange={(event)=>{setInfo(event.target.value)}}  />
-					<button id="myButton" className="btn btn-primary shadow-lg" onClick={()=>{getWeather(info)}}>hola</button>
+					<button id="myButton" className="btn bg-white border-none shadow-lg" onClick={()=>{getWeather(info)}}>Buscar</button>
 			</div>
     );
   }

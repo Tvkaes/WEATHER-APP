@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
+
 .morning {
     background:linear-gradient(to right, rgba(180, 210, 222, 1) 0%, 12.251655757427216%, rgba(151, 199, 225, 1) 24.50331151485443%, 62.251655757427216%, rgba(235, 174, 152, 1) 100%) !important;
   }
@@ -15,8 +33,9 @@
   }
 
 
-  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
-
+  
   html{
     font-family: 'IBM Plex Mono', monospace !important;
   }
+
+  
