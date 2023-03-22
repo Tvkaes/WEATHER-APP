@@ -15,7 +15,7 @@ function MyComponent() {
 
   async function getWeather(city){
         
-    const ENDPOINT = `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${city}&days=7`;
+    const ENDPOINT = `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${city}&days=7`;
     const response = await fetch(ENDPOINT);
     const datas = await response.json()
     console.log(datas ? datas.current.condition.icon.replace(/^/, "https:") : '')
