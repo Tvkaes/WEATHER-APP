@@ -15,7 +15,7 @@ const CardT = ()=>{
         $isInfo ?
 
 
-<div className="card lg:card-side glass p-4   text-black shadow-xl">
+<div className="card lg:card-side glass p-4 max-w-2xl  text-black shadow-xl">
 <figure></figure>
 <div className="card-body">
   <div className="grid grid-cols-2 gap-4 max-[675px]:grid-cols-1">

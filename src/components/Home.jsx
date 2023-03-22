@@ -24,8 +24,8 @@ const Home = ({background})=>{
  
                         </div>
                     </div>
-                </div>
-			<div className={`hero-content text-center p-4 ${$isInfo != "" ? "grid grid-cols-2 max-[675px]:grid-cols-1"  :""}`}>
+            </div>
+			<div className={`hero-content text-center p-4 ${$isInfo != "" ? "grid grid-cols-2 max-[675px]:grid-cols-1 justify-center items-center"  :""}`}>
 			  <div className="max-w-md">
 				<h1 className="text-5xl font-bold ">¡Hola! Bienvenido/a</h1>
 				<p className="py-6">Aquí puedes buscar el clima actual y futuro de cualquier ciudad del mundo. Solo ingresa el nombre de la ciudad en el campo de búsqueda y en segundos obtendrás información detallada sobre el clima, como la temperatura actual, la humedad, la velocidad del viento 
