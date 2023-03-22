@@ -12,7 +12,7 @@ const Home = ()=>{
     
     
     return(
-        <div className={`hero min-h-screen text-white ${$isData != "" ? "grid grid-cols-2"  :""}`}>
+        <div className={`hero min-h-screen text-white ${$isInfo != "" ? "grid grid-cols-2 max-[675px]:grid-cols-1"  :""}`}>
 			<div className="hero-content text-center">
 			  <div className="max-w-md">
 				<h1 className="text-5xl font-bold ">Hello there</h1>
@@ -20,7 +20,7 @@ const Home = ()=>{
 				<MyComponent></MyComponent>
 			  </div>
 			</div>
-			 {$isData !="" ? <div className="col-span-1"><CardT></CardT></div> : null }
+			 {Object.keys($isData).length != 0 ? <div className="col-span-1"><CardT></CardT></div> : null }
 		</div>
     )
 }
