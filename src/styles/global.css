@@ -1,0 +1,22 @@
+.morning {
+    background:linear-gradient(to right, rgba(180, 210, 222, 1) 0%, 12.251655757427216%, rgba(151, 199, 225, 1) 24.50331151485443%, 62.251655757427216%, rgba(235, 174, 152, 1) 100%) !important;
+  }
+  
+  .afternoon {
+    background:linear-gradient(to right, rgba(77, 137, 176, 1) 0%, 37.748345732688904%, rgba(147, 195, 224, 1) 75.49669146537781%, 87.7483457326889%, rgba(145, 189, 220, 1) 100%) !important;
+  }
+  
+  .evening {
+    background:linear-gradient(to right, rgba(126, 118, 138, 1) 0%, 26.97368562221527%, rgba(224, 170, 138, 1) 53.94737124443054%, 76.97368562221527%, rgba(199, 110, 95, 1) 100%) !important;
+  }
+  
+  .night {
+    background:linear-gradient(to right, #022135 0%, 26.97368562221527%, #2D475B 53.94737124443054%, 76.97368562221527%, #323B54 100%) !important; 
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+  html{
+    font-family: 'IBM Plex Mono', monospace !important;
+  }
